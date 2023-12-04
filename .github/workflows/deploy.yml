@@ -28,7 +28,7 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
-     env: variável de ambiente
+     env: Environment variable
       API_URL: ${{ secrets.API_URL }}
     steps:
       - name: Checkout
