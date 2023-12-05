@@ -23,7 +23,7 @@ export default function Home() {
     if (name === "") return alert("Digite um nome!");
     setLoading(true);
     axios
-      .post(`${apiUrl}/user`, { name: name })
+      .post(`${apiUrl}/user`, { nome: name })
       .then((response) => {
         console.log(response.data);
         alert("Usuário cadastrado com sucesso!");
