@@ -123,7 +123,7 @@ export default function Home() {
             {users.length > 0 ? (
               users.map((item, index) => (
                 <div className={styles.item} key={index}>
-                  {item.name}
+                  {item.nome}
                 </div>
               ))
             ) : (
